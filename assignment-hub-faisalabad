@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment Hub Faisalabad</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{font-family:sans-serif;text-align:center;margin:0;background:#f5f5ff}
+.header{background:white;padding:15px;font-weight:bold;color:blue;font-size:22px}
+.hero{background:blue;color:white;padding:50px 20px}
+.btn{background:#25D366;color:white;padding:12px 25px;border-radius:30px;text-decoration:none;display:inline-block;margin-top:15px;font-weight:bold}
+.box{background:white;margin:15px;padding:20px;border-radius:12px;box-shadow:0 2px 8px #ccc}
+</style>
+</head>
+<body>
+<div class="header">Assignment Hub Faisalabad</div>
+<div class="hero">
+<h1>All Assignments Available</h1>
+<p>Matric, Inter, BS, University</p>
+<a class="btn" href="https://wa.me/9203075861077">Order on WhatsApp</a>
+</div>
+<div class="box"><h3>📚 School & College</h3><p>Class 9 to 12</p></div>
+<div class="box"><h3>🎓 University</h3><p>BS, B.Ed, MA</p></div>
+<div class="box"><h3>✍️ Handwritten</h3><p>Neat Writing & Fast Delivery in Faisalabad</p></div>
+<div class="box"><p><b>Contact: 03075861077</b><br>Faisalabad</p></div>
+</body>
+</html>
