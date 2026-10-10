@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ASSIGNMENT HUB | Elite Academic Solutions - USA & Global</title>
+<meta name="description" content="Faisalabad's Only Premium Assignment Atelier. PhD Writers, Turnitin Certified, 100% Plagiarism Free, 24H Delivery. Trusted by GCUF & UAF for A+ Grades.">
+<meta name="google-site-verification" content="PASTE-YOUR-GOOGLE-CODE-HERE">
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -43,14 +45,14 @@ nav{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;a
 <nav>
 <div class="logo">ASSIGNMENT <i>HUB</i></div>
 <div class="nav-links"><span>Services</span><span>Portfolio</span><span>Pricing</span><span>Contact</span></div>
-<a href="#book" class="btn-book">Book Consultation →</a>
+<a href="https://wa.me/92+03075861077?text=Hi%20Assignment%20Hub%20-%20I%20need%20premium%20assignment%20help" class="btn-book">Book Consultation →</a>
 </nav>
 <section class="hero">
 <div>
 <div class="eyebrow">Est. 2022 — Faisalabad • Serving Globally</div>
 <h1>Ink that <i>speaks</i> <br>for your future.</h1>
 <p>We are an elite academic atelier. We craft handwritten assignments that meet Ivy League standards. Confidential, precise, and professor-approved.</p>
-<a href="#book" class="btn-book" style="display:inline-block;padding:16px 32px">Start Your Project →</a>
+<a href="https://wa.me/92+03075861077?text=Hi%20Assignment%20Hub%20-%20I%20need%20premium%20assignment%20help" class="btn-book" style="display:inline-block;padding:16px 32px">Start Your Project →</a>
 <div class="stats">
 <div class="stat"><h3>2.5k+</h3><span>Projects Delivered</span></div>
 <div class="stat"><h3>4.9/5</h3><span>Client Rating</span></div>
@@ -59,11 +61,13 @@ nav{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;a
 </div>
 <div class="form-card" id="book">
 <h4>● Secure Booking Portal</h4>
-<input class="input" placeholder="Full Name">
-<input class="input" placeholder="University Email Address">
-<input class="input" placeholder="Assignment Type (Thesis / Essay / Report)">
-<input class="input" placeholder="Deadline">
-<button class="btn-submit">Request Quote — It's Free</button>
+<form id="quoteForm">
+<input id="name" class="input" placeholder="Full Name" required>
+<input id="email" class="input" placeholder="University Email Address" required>
+<input id="subject" class="input" placeholder="Assignment Type (Thesis / Essay / Report)" required>
+<input id="deadline" class="input" type="date" placeholder="Deadline" required>
+<button type="submit" class="btn-submit">Request Quote — It's Free</button>
+</form>
 <p style="font-size:11px;color:#aaa;text-align:center;margin-top:16px;letter-spacing:0.5px">No WhatsApp. No Spam. Professional Correspondence Only.</p>
 </div>
 </section>
@@ -84,8 +88,21 @@ nav{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;a
 </section>
 <div style="padding:60px 5%;background:#111;color:#FCFCF9;text-align:center">
 <h2 style="font-family:'Instrument Serif',serif;font-size:42px;font-weight:400">Ready to present work that <i style='color:#666'>actually</i> matters?</h2>
-<a href="#book" class="btn-book" style="background:#FCFCF9;color:#111;margin-top:30px;display:inline-block">Book Consultation →</a>
+<a href="https://wa.me/92+03075861077?text=Hi%20Assignment%20Hub%20-%20I%20need%20premium%20assignment%20help" class="btn-book" style="background:#FCFCF9;color:#111;margin-top:30px;display:inline-block">Book Consultation →</a>
 <p style="margin-top:20px;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#555">© 2026 ASSIGNMENT HUB — Elite Academic Atelier</p>
 </div>
+
+<script>
+document.getElementById('quoteForm').addEventListener('submit', function(e){
+ e.preventDefault();
+ let n=document.getElementById('name').value;
+ let em=document.getElementById('email').value;
+ let sub=document.getElementById('subject').value;
+ let dl=document.getElementById('deadline').value;
+ let msg=`*New Premium Order - Assignment Hub*%0A%0AName: ${n}%0AEmail: ${em}%0ASubject: ${sub}%0ADeadline: ${dl}%0A%0APlease send quote`;
+ window.open(`https://wa.me/92+03075861077?text=${msg}`,'_blank');
+});
+</script>
+
 </body>
   </html>
